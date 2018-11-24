@@ -4,6 +4,8 @@ import scala.io.Source
 import scala.language.postfixOps
 import scala.util.Try
 
+scalaVersion := "2.12.7"
+
 lazy val commonSettings =
   Seq(
     organization := "org.mockito",
